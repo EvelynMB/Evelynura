@@ -1,0 +1,45 @@
+@import url('http://fonts.cdnfonts.com/css/luckystar?styles=51078');
+:root {
+    --color-header: #ff7b62;
+    --color-section1: #ffaf4a;
+    --color-section2: #ffe662;
+    --color-section3: #fffb99;
+    --color-section5: #fefece;
+}
+*{
+    margin:0; padding: 0; box-sizing: border-box;
+}
+.conteiner {
+    width: 90px;
+    max-width: 600px;
+    height: 600px;
+    outline: 2px solid #000;
+    margin: 30px auto;
+    display:flex;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+header{background-color: var(--color-header); width: auto; height: 660px;}
+h1{font-family: 'Luckystar', sans-serif; font-size: 200px; text-align: center; padding-top: 30px; letter-spacing: 5px;}
+.menu {text-align: center; padding-top: 170px; }
+nav ul li {display: inline-block; }
+li {width:250px; height: 60px; background-color: var(--color-section1); border-radius: 30px; box-shadow: 5px 5px 6px 5px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 5px 5px 6px 5px rgba(0,0,0,0.65);
+    -moz-box-shadow: 5px 5px 6px 5px rgba(0,0,0,0.65);
+    font-size: 50px; 
+    
+    }
+a {text-decoration: none; text-align: center;}
+
+.presentación {background-color: var(--color-section1);
+width: auto; height: 660px;
+}
+.bloque1 {text-align: right; font-size: 40px;}
+img {width: auto; height: 200px;}
+.imagen {text-align: left;}
+
+.Redes {background-color: #f98866; width: auto; height: 100px;}
+.bloque2 {text-align: left;}
+.red {text-align: left; font-size: 50px; }
+footer {font-size: 30px; }
