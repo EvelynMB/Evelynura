@@ -16,9 +16,13 @@
 }
 
 header{
-    background-image: url(assets/horizontal-kurt-von-jNN9eZdPC5M-unsplash.jpg);
     width: auto; 
-    height: 660px;}
+    height: 660px;
+    object-fit: contain;
+    z-index: auto;
+}
+
+
 h1{font-family: 'Fuzzy Bubbles', cursive; font-size: 200px; text-align: center; padding-top: 30px; letter-spacing: 0px;}
 .menu {text-align: center; padding-top: 170px; }
 nav ul li {display: inline-block; }
